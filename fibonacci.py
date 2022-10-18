@@ -1,10 +1,10 @@
 def ulang():
     
-    input_angka = int(input("masukkan batas angka : "))
-    
     angka1 = 0
     angka2 = 1
     fib_arr = []
+    
+    input_angka = int(input("masukkan batas angka : "))
     
     while angka1 <= input_angka:
         fib_arr.append(angka1)
